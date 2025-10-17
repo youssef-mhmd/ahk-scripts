@@ -62,7 +62,7 @@ An **AutoHotkey v2 GUI tool** for downloading online videos or playlists as MP3 
 **Dependencies:**  
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)  
 - [ffmpeg](https://ffmpeg.org/download.html)  
-(Both must be installed and added to your system PATH.)
+(Both must be installed and added to your system PATH. or in the same folder with the script)
 
 ---
 
