@@ -1,3 +1,8 @@
+;Mouse4 (The front thumb button) will reset mothon attributes in premiere.
+;It works by selceting Effects Controls -> looking up for a default motion preset -> dragging it onto saved mouse position.
+;So position mouse over the clip you want to reset when doing this.
+
+
 #Requires Autohotkey v2.0
 
 DllCall("SetProcessDpiAwarenessContext", "ptr", -4) ; Enable DPI awareness
@@ -39,5 +44,6 @@ XButton2:: ; Mouse5 (XButton1 is usually the "Back" button on most mice)
 }
 
 #HotIf
+
 
 return
